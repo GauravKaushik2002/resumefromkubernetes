@@ -1,0 +1,4 @@
+FROM httpd
+COPY basic-resume.html /usr/local/apache2/htdocs/index.html
+COPY style.css /usr/local/apache2/htdocs/style.css
+COPY logo.jpg /usr/local/apache2/htdocs/logo.jpg
